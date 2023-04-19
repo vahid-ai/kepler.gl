@@ -48,7 +48,7 @@ export type HeatmapLayerConfig = Merge<
 > &
   HeatmapLayerVisualChannelConfig;
 
-export const MAX_ZOOM_LEVEL = 18;
+export const MAX_ZOOM_LEVEL = 25;
 
 export const pointPosAccessor = ({lat, lng}: HeatmapLayerColumnsConfig) => (
   dc: DataContainerInterface
